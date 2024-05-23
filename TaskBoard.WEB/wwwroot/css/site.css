@@ -10,6 +10,10 @@ a.navbar-brand {
 /* Provide sufficient contrast against white background */
 a {
   color: #0366d6;
+  border: 1px solid black;
+  margin-left: 10px;
+  border-radius: 50px;
+  font-size: 20px
 }
 
 .btn-primary {
@@ -19,9 +23,9 @@ a {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
 }
 
 /* Sticky footer styles
@@ -42,9 +46,9 @@ html {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.box-shadow {
+/*.box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
+}*/
 
 button.accept-policy {
   font-size: 1rem;
@@ -69,3 +73,4 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+

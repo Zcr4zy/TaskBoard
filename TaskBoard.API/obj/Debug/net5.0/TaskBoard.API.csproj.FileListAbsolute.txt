@@ -41,3 +41,46 @@ G:\CURSOS\08 - AJAX\TaskBoard\TaskBoard\TaskBoard.API\obj\Debug\net5.0\refint\Ta
 G:\CURSOS\08 - AJAX\TaskBoard\TaskBoard\TaskBoard.API\obj\Debug\net5.0\TaskBoard.API.pdb
 G:\CURSOS\08 - AJAX\TaskBoard\TaskBoard\TaskBoard.API\obj\Debug\net5.0\TaskBoard.API.genruntimeconfig.cache
 G:\CURSOS\08 - AJAX\TaskBoard\TaskBoard\TaskBoard.API\obj\Debug\net5.0\ref\TaskBoard.API.dll
+G:\TaskBoard\TaskBoard.API\bin\Debug\net5.0\appsettings.Development.json
+G:\TaskBoard\TaskBoard.API\bin\Debug\net5.0\appsettings.json
+G:\TaskBoard\TaskBoard.API\bin\Debug\net5.0\TaskBoard.API.exe
+G:\TaskBoard\TaskBoard.API\bin\Debug\net5.0\TaskBoard.API.deps.json
+G:\TaskBoard\TaskBoard.API\bin\Debug\net5.0\TaskBoard.API.runtimeconfig.json
+G:\TaskBoard\TaskBoard.API\bin\Debug\net5.0\TaskBoard.API.runtimeconfig.dev.json
+G:\TaskBoard\TaskBoard.API\bin\Debug\net5.0\TaskBoard.API.dll
+G:\TaskBoard\TaskBoard.API\bin\Debug\net5.0\TaskBoard.API.pdb
+G:\TaskBoard\TaskBoard.API\bin\Debug\net5.0\Humanizer.dll
+G:\TaskBoard\TaskBoard.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+G:\TaskBoard\TaskBoard.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\TaskBoard\TaskBoard.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\TaskBoard\TaskBoard.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+G:\TaskBoard\TaskBoard.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\TaskBoard\TaskBoard.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+G:\TaskBoard\TaskBoard.API\bin\Debug\net5.0\Newtonsoft.Json.dll
+G:\TaskBoard\TaskBoard.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\TaskBoard\TaskBoard.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\TaskBoard\TaskBoard.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\TaskBoard\TaskBoard.API\bin\Debug\net5.0\Classes.dll
+G:\TaskBoard\TaskBoard.API\bin\Debug\net5.0\Classes.pdb
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\TaskBoard.API.csproj.AssemblyReference.cache
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\TaskBoard.API.GeneratedMSBuildEditorConfig.editorconfig
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\TaskBoard.API.AssemblyInfoInputs.cache
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\TaskBoard.API.AssemblyInfo.cs
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\TaskBoard.API.csproj.CoreCompileInputs.cache
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\TaskBoard.API.MvcApplicationPartsAssemblyInfo.cs
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\TaskBoard.API.MvcApplicationPartsAssemblyInfo.cache
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\TaskBoard.API.sourcelink.json
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\TaskBoard.API.RazorTargetAssemblyInfo.cache
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\scopedcss\bundle\TaskBoard.API.styles.css
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\staticwebassets\TaskBoard.API.StaticWebAssets.Manifest.cache
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\staticwebassets\TaskBoard.API.StaticWebAssets.Pack.cache
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\staticwebassets\msbuild.TaskBoard.API.Microsoft.AspNetCore.StaticWebAssets.props
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\staticwebassets\msbuild.build.TaskBoard.API.props
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.TaskBoard.API.props
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.TaskBoard.API.props
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\TaskBoar.C245671B.Up2Date
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\TaskBoard.API.dll
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\refint\TaskBoard.API.dll
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\TaskBoard.API.pdb
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\TaskBoard.API.genruntimeconfig.cache
+G:\TaskBoard\TaskBoard.API\obj\Debug\net5.0\ref\TaskBoard.API.dll

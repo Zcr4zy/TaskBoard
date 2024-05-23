@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\CURSOS\\08 - AJAX\\TaskBoard\\TaskBoard\\TaskBoard.API\\TaskBoard.API.csproj": {}
+    "G:\\TaskBoard\\TaskBoard.API\\TaskBoard.API.csproj": {}
   },
   "projects": {
-    "G:\\CURSOS\\08 - AJAX\\TaskBoard\\TaskBoard\\Classes\\Classes.csproj": {
+    "G:\\TaskBoard\\Classes\\Classes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\CURSOS\\08 - AJAX\\TaskBoard\\TaskBoard\\Classes\\Classes.csproj",
+        "projectUniqueName": "G:\\TaskBoard\\Classes\\Classes.csproj",
         "projectName": "Classes",
-        "projectPath": "G:\\CURSOS\\08 - AJAX\\TaskBoard\\TaskBoard\\Classes\\Classes.csproj",
+        "projectPath": "G:\\TaskBoard\\Classes\\Classes.csproj",
         "packagesPath": "C:\\Users\\carlos.cunha\\.nuget\\packages\\",
-        "outputPath": "G:\\CURSOS\\08 - AJAX\\TaskBoard\\TaskBoard\\Classes\\obj\\",
+        "outputPath": "G:\\TaskBoard\\Classes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -106,14 +106,14 @@
         }
       }
     },
-    "G:\\CURSOS\\08 - AJAX\\TaskBoard\\TaskBoard\\TaskBoard.API\\TaskBoard.API.csproj": {
+    "G:\\TaskBoard\\TaskBoard.API\\TaskBoard.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\CURSOS\\08 - AJAX\\TaskBoard\\TaskBoard\\TaskBoard.API\\TaskBoard.API.csproj",
+        "projectUniqueName": "G:\\TaskBoard\\TaskBoard.API\\TaskBoard.API.csproj",
         "projectName": "TaskBoard.API",
-        "projectPath": "G:\\CURSOS\\08 - AJAX\\TaskBoard\\TaskBoard\\TaskBoard.API\\TaskBoard.API.csproj",
+        "projectPath": "G:\\TaskBoard\\TaskBoard.API\\TaskBoard.API.csproj",
         "packagesPath": "C:\\Users\\carlos.cunha\\.nuget\\packages\\",
-        "outputPath": "G:\\CURSOS\\08 - AJAX\\TaskBoard\\TaskBoard\\TaskBoard.API\\obj\\",
+        "outputPath": "G:\\TaskBoard\\TaskBoard.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -138,8 +138,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "G:\\CURSOS\\08 - AJAX\\TaskBoard\\TaskBoard\\Classes\\Classes.csproj": {
-                "projectPath": "G:\\CURSOS\\08 - AJAX\\TaskBoard\\TaskBoard\\Classes\\Classes.csproj"
+              "G:\\TaskBoard\\Classes\\Classes.csproj": {
+                "projectPath": "G:\\TaskBoard\\Classes\\Classes.csproj"
               }
             }
           }

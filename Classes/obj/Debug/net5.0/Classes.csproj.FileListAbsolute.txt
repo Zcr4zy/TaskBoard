@@ -14,3 +14,19 @@ G:\CURSOS\08 - AJAX\TaskBoard\TaskBoard\Classes\obj\Debug\net5.0\refint\Classes.
 G:\CURSOS\08 - AJAX\TaskBoard\TaskBoard\Classes\obj\Debug\net5.0\Classes.pdb
 G:\CURSOS\08 - AJAX\TaskBoard\TaskBoard\Classes\obj\Debug\net5.0\Classes.genruntimeconfig.cache
 G:\CURSOS\08 - AJAX\TaskBoard\TaskBoard\Classes\obj\Debug\net5.0\ref\Classes.dll
+G:\TaskBoard\Classes\bin\Debug\net5.0\Classes.deps.json
+G:\TaskBoard\Classes\bin\Debug\net5.0\Classes.runtimeconfig.json
+G:\TaskBoard\Classes\bin\Debug\net5.0\Classes.runtimeconfig.dev.json
+G:\TaskBoard\Classes\bin\Debug\net5.0\Classes.dll
+G:\TaskBoard\Classes\bin\Debug\net5.0\Classes.pdb
+G:\TaskBoard\Classes\obj\Debug\net5.0\Classes.csproj.AssemblyReference.cache
+G:\TaskBoard\Classes\obj\Debug\net5.0\Classes.GeneratedMSBuildEditorConfig.editorconfig
+G:\TaskBoard\Classes\obj\Debug\net5.0\Classes.AssemblyInfoInputs.cache
+G:\TaskBoard\Classes\obj\Debug\net5.0\Classes.AssemblyInfo.cs
+G:\TaskBoard\Classes\obj\Debug\net5.0\Classes.csproj.CoreCompileInputs.cache
+G:\TaskBoard\Classes\obj\Debug\net5.0\Classes.sourcelink.json
+G:\TaskBoard\Classes\obj\Debug\net5.0\Classes.dll
+G:\TaskBoard\Classes\obj\Debug\net5.0\refint\Classes.dll
+G:\TaskBoard\Classes\obj\Debug\net5.0\Classes.pdb
+G:\TaskBoard\Classes\obj\Debug\net5.0\Classes.genruntimeconfig.cache
+G:\TaskBoard\Classes\obj\Debug\net5.0\ref\Classes.dll
