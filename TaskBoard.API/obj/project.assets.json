@@ -1222,11 +1222,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\TaskBoard\\TaskBoard.API\\TaskBoard.API.csproj",
+      "projectUniqueName": "C:\\Users\\carlos.cunha\\Downloads\\TaskBoard\\TaskBoard.API\\TaskBoard.API.csproj",
       "projectName": "TaskBoard.API",
-      "projectPath": "G:\\TaskBoard\\TaskBoard.API\\TaskBoard.API.csproj",
+      "projectPath": "C:\\Users\\carlos.cunha\\Downloads\\TaskBoard\\TaskBoard.API\\TaskBoard.API.csproj",
       "packagesPath": "C:\\Users\\carlos.cunha\\.nuget\\packages\\",
-      "outputPath": "G:\\TaskBoard\\TaskBoard.API\\obj\\",
+      "outputPath": "C:\\Users\\carlos.cunha\\Downloads\\TaskBoard\\TaskBoard.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1251,8 +1251,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "G:\\TaskBoard\\Classes\\Classes.csproj": {
-              "projectPath": "G:\\TaskBoard\\Classes\\Classes.csproj"
+            "C:\\Users\\carlos.cunha\\Downloads\\TaskBoard\\Classes\\Classes.csproj": {
+              "projectPath": "C:\\Users\\carlos.cunha\\Downloads\\TaskBoard\\Classes\\Classes.csproj"
             }
           }
         }

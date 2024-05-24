@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+1YMXzXVzY9DithYzWtwi4R4ikJs4jMnZXuvr4J8EncZriuHSC9wpDNOzXf6koIMeelLgXuEQMG9buJBsNewjg==",
+  "dgSpecHash": "FmD+4J6O7k5Szq81pBfpkWSSHHaC/ClBzZ0q9NQ8IU2/FE5GQBvIlBiBWnk4hyKgi5sHvDOgA94SU5kINuEgVQ==",
   "success": true,
-  "projectFilePath": "G:\\TaskBoard\\TaskBoard.API\\TaskBoard.API.csproj",
+  "projectFilePath": "C:\\Users\\carlos.cunha\\Downloads\\TaskBoard\\TaskBoard.API\\TaskBoard.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlos.cunha\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\carlos.cunha\\.nuget\\packages\\jquery\\3.7.1\\jquery.3.7.1.nupkg.sha512",

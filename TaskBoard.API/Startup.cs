@@ -36,10 +36,12 @@ namespace TaskBoard.API
 
             services.AddDbContext<AppDbContext>(options => options.UseInMemoryDatabase("BancoEmMemória"));
 
-            services.AddCors(options => options.AddPolicy("AutorizarGeral", builder => builder.AllowAnyOrigin().AllowAnyMethod()));
+            services.AddCors(options => options.AddPolicy("AutorizarGeral", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
 
             services.AddScoped<ITaskService, TaskService>();
             services.AddScoped<ITaskRepository, TaskRepository>();
+            services.AddScoped<IPrioridadeService, PrioridadeService>();
+            services.AddScoped<IPrioridadeRepository, PrioridadeRepository>();
 
             services.AddSwaggerGen(c =>
             {
