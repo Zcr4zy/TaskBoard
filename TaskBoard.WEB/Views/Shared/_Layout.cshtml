@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
+    <style>
+        nav a {
+            color: white;
+            border: 1px solid black;
+            margin-left: 10px;
+            border-radius: 50px;
+            font-size: 20px;
+            box-shadow: 2px 5px 10px rgb(0, 0, 0, 0.2);
+            background-color: rgb(52,58,64)
+        }
+
+    </style>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm box-shadow mb-3" style="background-color:transparent !important">
             <div class="container">
@@ -18,10 +30,10 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1" style="text-align:center; align-items: center; justify-content:center;">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Task" asp-action="List">Tarefas</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Task" asp-action="List">Tarefas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Task" asp-action="Post">Criar Tarefa</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Task" asp-action="Post">Criar Tarefa</a>
                         </li>
                     </ul>
                 </div>
@@ -35,8 +47,8 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - TaskBoard.WEB - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        <div class="container" style="color:white">
+            &copy 2024 zCr4zy
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

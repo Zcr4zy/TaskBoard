@@ -3,7 +3,7 @@
 <head>
     <title></title>
 </head>
-<body>
+<body style="background: linear-gradient(to right,rgb(30,43,139), rgb(35,116,255), rgb(34,43,192), rgb(30,43,139) );">
     <style>
         input textarea{
             text-align: center;
@@ -11,47 +11,67 @@
             width: 5%;
             height: 5%;
         }
+        .papel{
+            background-color: rgba(128, 128, 128, 0.5); 
+            backdrop-filter: blur(10px); 
+        }
     </style>
-    <div style ="border: 1px solid black;text-align:center; align-items:center; justify-content:center;padding: 5% 5%;">
+    <div style="border: 1px solid black;text-align:center; align-items:center; justify-content:center;padding: 5% 5%;box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);" class="papel">
         <form>
             <div class="form-group">
-                <label for="exampleFormControlInput1">Nome da Tarefa *</label>
-                <input type="text" class="form-control" id="NOME" placeholder="Insira o Nome da Tarefa">
+                <label for="exampleFormControlInput1">Nome da Tarefa <b style="color:red">*</b></label>
+                <input type="text" class="form-control" id="NOME" required placeholder="Insira o Nome da Tarefa">
             </div>
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Descrição da Tarefa *</label>
-                <textarea class="form-control" id="DESCRICAO" rows="3"></textarea>
+                <label for="exampleFormControlTextarea1">Descrição da Tarefa <b style="color:red">*</b></label>
+                <textarea class="form-control" required id="DESCRICAO" rows="3"></textarea>
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Data de Finalização </label>
                 <input type="date" class="form-control" id="DATAFINAL">
             </div>
             <div class="form-group" style="">
-                <label for="exampleFormControlSelect1">Prioridade</label>
-                <select class="form-control" id="PRIORIDADE">
+                <label for="exampleFormControlSelect1">Prioridade <b style="color:red">*</b></label>
+                <select class="form-control" id="PRIORIDADE" required>
                     
                 </select>
             </div>
-            <button type="submit" id="Enviar">Criar</button>
+            <button type="submit" class="btn btn-success" id="Enviar">Criar</button>
         </form>
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script>
     $(document).ready(function () {
-        var prioridadeText = {
-            0: 'Baixa',
-            1: 'Moderada',
-            2: 'Alta'
-        };
+        function ConverterPrioridade(prioridadeRecebida) {
+            if (typeof prioridadeRecebida === "number") {
+                if (prioridadeRecebida === 0) {
+                    return 'Baixa';
+                } else if (prioridadeRecebida === 1) {
+                    return 'Moderada';
+                } else {
+                    return 'Alta';
+                }
+            }
+
+            if (typeof prioridadeRecebida === "string") {
+                if (prioridadeRecebida === 'Baixa') {
+                    return 0;
+                } else if (prioridadeRecebida === 'Moderada') {
+                    return 1;
+                } else {
+                    return 2;
+                }
+            }
+
+        }
 
         $.ajax({
             url: 'https://localhost:44330/api/v1/niveisprioridades',
             type: 'GET',
             success: function (data) {
                 data.forEach(function (prioridade) {
-                    var textoPrioridade = prioridadeText[prioridade];
-                    $('select').append('<option data-id="' + prioridade + '">' + textoPrioridade + '</option>')
+                    $('select').append('<option data-id="' + prioridade + '">' + ConverterPrioridade(prioridade) + '</option>')
                 })
             },
             error: function (error) {
@@ -61,12 +81,6 @@
 
         $('form').submit(function (event) {
             event.preventDefault();
-
-            var prioridadeTextToNumber = {
-                'Baixa': 0 ,
-                'Moderada': 1,
-                'Alta': 2
-            };
             
             $.ajax({
                 url: 'https://localhost:44330/api/v1/tasks/newtask',
@@ -78,7 +92,7 @@
                     dataCriacao: new Date().toISOString(),
                     dataLimite: $('#DATAFINAL').val() ? $('#DATAFINAL').val() : null,
                     isComplete: false,
-                    prioridade: prioridadeTextToNumber[$('#PRIORIDADE').val()]
+                    prioridade: ConverterPrioridade($('select').val())
                 }),
                 success: function (data) {
                     window.location.href = "https://localhost:44381/";

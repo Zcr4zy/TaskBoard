@@ -22,7 +22,7 @@ namespace TaskBoard.API.Data
                     Nome = "Encerramento API - TaskBoard",
                     Descricao = "Terminar os endpoints da API e deixá-la em funcionamento",
                     DataCriacao = DateTime.Now,
-                    IsComplete = false,
+                    IsComplete = true,
                     Prioridade = NivelPrioridade.Alta
                 },
                 new TaskModel
@@ -31,7 +31,7 @@ namespace TaskBoard.API.Data
                     Nome = "Encerramento WEB - TaskBoard",
                     Descricao = "Terminar o visual do TaskBoard e as requisições HTTP",
                     DataCriacao = DateTime.Now,
-                    IsComplete = false,
+                    IsComplete = true,
                     Prioridade = NivelPrioridade.Alta
                 },
                 new TaskModel
@@ -40,7 +40,7 @@ namespace TaskBoard.API.Data
                     Nome = "Push no Repositório",
                     Descricao = "Enviar Projeto ao GitHub",
                     DataCriacao = DateTime.Now,
-                    IsComplete = false,
+                    IsComplete = true,
                     Prioridade = NivelPrioridade.Baixa
                 }
              );

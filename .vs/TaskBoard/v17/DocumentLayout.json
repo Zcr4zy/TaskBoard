@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\TaskBoard\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\carlos.cunha\\Downloads\\TaskBoard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E9C76C8-9973-49F0-A866-80E100EA01F1}|TaskBoard.WEB\\TaskBoard.WEB.csproj|c:\\users\\carlos.cunha\\downloads\\taskboard\\taskboard.web\\views\\task\\post.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E9C76C8-9973-49F0-A866-80E100EA01F1}|TaskBoard.WEB\\TaskBoard.WEB.csproj|solutionrelative:taskboard.web\\views\\task\\post.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E9C76C8-9973-49F0-A866-80E100EA01F1}|TaskBoard.WEB\\TaskBoard.WEB.csproj|c:\\users\\carlos.cunha\\downloads\\taskboard\\taskboard.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2E9C76C8-9973-49F0-A866-80E100EA01F1}|TaskBoard.WEB\\TaskBoard.WEB.csproj|solutionrelative:taskboard.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Post.cshtml",
+              "DocumentMoniker": "C:\\Users\\carlos.cunha\\Downloads\\TaskBoard\\TaskBoard.WEB\\Views\\Task\\Post.cshtml",
+              "RelativeDocumentMoniker": "TaskBoard.WEB\\Views\\Task\\Post.cshtml",
+              "ToolTip": "C:\\Users\\carlos.cunha\\Downloads\\TaskBoard\\TaskBoard.WEB\\Views\\Task\\Post.cshtml",
+              "RelativeToolTip": "TaskBoard.WEB\\Views\\Task\\Post.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T20:13:30.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\carlos.cunha\\Downloads\\TaskBoard\\TaskBoard.WEB\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "TaskBoard.WEB\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\carlos.cunha\\Downloads\\TaskBoard\\TaskBoard.WEB\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "TaskBoard.WEB\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCIAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-31T20:10:34Z",
+              "EditorCaption": ""
             }
           ]
         }

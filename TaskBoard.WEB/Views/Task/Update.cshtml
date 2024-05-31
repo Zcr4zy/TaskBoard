@@ -1,5 +1,135 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body style="background: linear-gradient(to right,rgb(30,43,139), rgb(35,116,255), rgb(34,43,192), rgb(30,43,139) );">
+    <style>
+        input textarea {
+            text-align: center;
+            color: black;
+            width: 5%;
+            height: 5%;
+        }
+
+        .papel {
+            background-color: rgba(128, 128, 128, 0.5);
+            backdrop-filter: blur(10px);
+        }
+    </style>
+    <div style="border: 1px solid black;text-align:center; align-items:center; justify-content:center;padding: 5% 5%;box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);" class="papel">
+        <form>
+            <div class="form-group">
+                <label>Nome da Tarefa <b style="color:red">*</b></label>
+                <input type="text" class="form-control" id="NOME" required placeholder="Insira o Nome da Tarefa">
+            </div><br />
+            <div class="form-group">
+                <label>Descrição da Tarefa <b style="color:red">*</b></label>
+                <textarea class="form-control" id="DESCRICAO" required rows="3"></textarea>
+            </div><br />
+            <div class="form-group">
+                <label>Data de Finalização </label>
+                <input type="date" class="form-control" id="DATAFINAL">
+            </div><br />
+            <div class="form-group">
+                <label>Está concluída? </label>
+                <input type="checkbox" class="form-check-label" id="ISCOMPLETE">
+            </div><br />
+            <div class="form-group">
+                <label>Prioridade <b style="color:red">*</b></label>
+                <select class="form-control" id="PRIORIDADE" required>
+                </select>
+            </div><br />
+            <button type="submit" id="Enviar" class="btn btn-success">Atualizar</button>
+        </form>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        function ConverterPrioridade(prioridadeRecebida) {
+            if (typeof prioridadeRecebida === "number") {
+                if (prioridadeRecebida === 0) {
+                    return 'Baixa';
+                } else if (prioridadeRecebida === 1) {
+                    return 'Moderada';
+                } else {
+                    return 'Alta';
+                }
+            }
+
+            if (typeof prioridadeRecebida === "string") {
+                if (prioridadeRecebida === 'Baixa') {
+                    return 0;
+                } else if (prioridadeRecebida === 'Moderada') {
+                    return 1;
+                } else {
+                    return 2;
+                }
+            }
+
+        }
+
+        $.ajax({
+            url: 'https://localhost:44330/api/v1/niveisprioridades',
+            type: 'GET',
+            success: function (data) {
+                data.forEach(function (prioridade) {
+                    $('select').append('<option data-id="' + prioridade + '">' + ConverterPrioridade(prioridade) + '</option>')
+                })
+            },
+            error: function (error) {
+                throw error;
+            }
+        })
+
+        //Buscar Id direto na URl
+        var params = new URLSearchParams(window.location.search);
+        var TaskID = params.get('id');
+        
+        $.ajax({
+            url: 'https://localhost:44330/api/v1/tasks/' + TaskID,
+            type: 'GET',
+            success: function (dados){
+                $('#NOME').val(dados.nome);
+                $('#DESCRICAO').val(dados.descricao);
+                $('#DATAFINAL').val(dados.dataLimite);
+                if (dados.isComplete) {
+                    $('#ISCOMPLETE').prop('checked', true);
+                } else {
+                    $('#ISCOMPLETE').prop('checked', false);
+                }
+                $('#PRIORIDADE').val(ConverterPrioridade(dados.prioridade));
+            },
+            error: function(erro){
+                throw erro;
+            }
+        })
+
+        $('form').submit(function (event) {
+            event.preventDefault();
+
+            $.ajax({
+                url: 'https://localhost:44330/api/v1/tasks/' + TaskID + '/updatetask',
+                type: 'PUT',
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    taskID: Number(TaskID),
+                    nome: $('#NOME').val(),
+                    descricao: $('#DESCRICAO').val(),
+                    dataLimite: $('#DATAFINAL').val() ? $('#DATAFINAL').val() : null,
+                    isComplete: $('#ISCOMPLETE').prop('checked'),
+                    prioridade: ConverterPrioridade($('#PRIORIDADE').val())
+                }),
+                success: function (dados) {
+                    window.location.href = 'https://localhost:44381/'
+                },
+                error: function (error) { 
+                    throw error;
+                }
+            })
+        })
+    })
+
+</script>
+</html>
